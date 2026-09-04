@@ -3,14 +3,14 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Taskflow - Ship work that moves your business',
-  description: 'The collaborative project management platform for distributed engineering and product teams. Real-time visibility, AI-powered insights, and seamless integrations.',
+  title: 'Project 1788534251307 - Ship work that moves your business',
+  description: 'Plan, track, and deliver projects with speed and clarity. Built for high-performing teams.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-[#0F0F13] text-white antialiased">
+      <body className="bg-[#0a0a0f] text-white antialiased">
         {children}
       </body>
     </html>
