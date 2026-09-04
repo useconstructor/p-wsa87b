@@ -3,14 +3,14 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Project 1788534251307',
-  description: 'Taskflow is a dark, conversion-focused SaaS landing page for a collaborative project management platform serving distributed engineering and product teams. It will highlight AI-powered insights, real-time visibility, integrations, social proof, and transparent pricing with animated product UI mockups.',
+  title: 'Taskflow - Ship work that moves your business',
+  description: 'The collaborative project management platform for distributed engineering and product teams. Real-time visibility, AI-powered insights, and seamless integrations.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body style={{ backgroundColor: '#0F0F13', margin: 0 }}>
+      <body className="bg-[#0F0F13] text-white antialiased">
         {children}
       </body>
     </html>
